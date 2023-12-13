@@ -710,6 +710,7 @@ a:focus {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
 }
 
 .modal__text-field::placeholder {
@@ -724,7 +725,13 @@ a:focus {
   margin-bottom: 24px;
 }
 
-.modal__check-input:checked + .modal__check-text {
+/*.modal__check-input:checked + .modal__check-text {
+  border: none;
+  fill: #f4f4fd;
+}*/
+
+.modal__check-input:checked + .modal__check-text .modal__check-box {
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
