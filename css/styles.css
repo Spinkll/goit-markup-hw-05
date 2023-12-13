@@ -634,7 +634,7 @@ a:focus {
 
 .modal__button-close:hover .modal__icon-close,
 .modal__button-close:focus .modal__icon-close {
-  fill: var(--color-white);
+  fill: #ffffff;
 }
 
 .modal__title {
@@ -728,7 +728,7 @@ a:focus {
   margin-bottom: 24px;
 }
 
-.modal__check-input:checked + .modal__check-text .modal__check-box {
+.modal__check-input:checked + .modal__check-text {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -765,7 +765,7 @@ a:focus {
 
 .modal__link-text:hover,
 .modal__link-text:focus {
-  color: var(--color-ocean);
+  color: #4d5ae5;
 }
 
 .modal__button-submit {
