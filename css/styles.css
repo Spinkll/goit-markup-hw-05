@@ -581,9 +581,6 @@ a:focus {
 }
 
 .backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
 }
 
 .modal {
@@ -713,7 +710,6 @@ a:focus {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(46, 47, 66, 0.4);
-  background-color: transparent;
 }
 
 .modal__text-field::placeholder {
@@ -729,7 +725,6 @@ a:focus {
 }
 
 .modal__check-input:checked + .modal__check-text {
-  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
@@ -791,5 +786,6 @@ a:focus {
 
 .modal__button-submit:hover,
 .modal__button-submit:focus {
-  background-color: var(--color-ocean);
+  background-color: #404bbf;
+  border: none;
 }
