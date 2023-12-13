@@ -502,8 +502,9 @@ a:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #f4f4fd;
+  color: #ffffff;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 
 .footer-subscribe-form {
@@ -517,22 +518,23 @@ a:focus {
 .footer-subscribe-input {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
-  color: #f4f4fd;
+  color: #ffffff;
   background-color: transparent;
   min-width: 264px;
   min-height: 40px;
   flex-shrink: 0;
   padding-left: 16px;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid var(--WHITE, #fff);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: none;
 }
 
 .footer-subscribe-input::placeholder {
-  color: #f4f4fd;
+  color: #ffffff;
 }
 
 .footer-subscribe-button {
@@ -541,7 +543,7 @@ a:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #f4f4fd;
+  color: #ffffff;
   background-color: #4d5ae5;
   display: flex;
   align-items: center;
